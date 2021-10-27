@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Press+Start+2P&family=Roboto&display=swap');
+
+/* fontes usadas: 
+font-family: 'Audiowide', cursive; 
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 176px;
+    background-color: white;
+}
+
+.tipbar {
+    height: 15%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.tipbar li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+/* header parte interaçao com usuário */
+.container_head {
+    height: 60%;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.posicionamento_head{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    display: flex;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    justify-content: flex-start;
+}
+
+/* Posicionamento e configuração do nome da loja Game Mania */
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    align-self: center;
+    font-size: 2.125em;
+    justify-content: center !important;
+}
+
+/* css dos icones de navegação */
+.icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* menu navegação e busca do header */
+.navigation {
+    width: 1200px;
+    margin: 0 auto;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation_itens {
+    display: inline-flex;
+    width: 530px;
+    justify-content: space-between;
+}
+
+.navigation_itens a {
+font-size: .8125rem;
+letter-spacing: .1rem;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+color: #353535;
+text-decoration: none;
+}
+
+/* Botao de busca site*/
+#divBusca{
+    border:solid 1px;
+    width: 300px;
+  }
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-family: 'Roboto', sans-serif;
+    font-style:italic;
+    font-size:16px;
+    border:none;
+    height:20px;
+    width:270px;
+  }
+
+
+  .carousel-inner > .carousel-item > img {
+      width: 800px;
+      height: 500px;
+
+  }
+
+  .carousel-caption h5{
+      font-family: 'Audiowide', cursive;
+      font-size: 50px;
+}
+
+ .carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+ }
+
+
+  /* Banner - carosel */
+
+  .teste {
+      height: 550px;
+      display: flex;
+      justify-content: space-between;
+  }
+#rotativo img {
+    display: none;
+}
+.banner img{
+    display: flex;
+    /* height: 55px; */
+}
+
+.banner_ativo {
+    display: flex;
+}
+
+/* menu compras loja */
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+	
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  
+	
+ } 
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    justify-content: center;
+
+	
+}
+
+.contenedor h3{
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Audiowide', cursive;
+    font-size: rem;
+    color: whitesmoke;
+
+
+	
+	
+}
+
+/* .banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+} */
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+
+.menu_loja{
+    width: 1200px;
+    height: 1171px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.box_banner img {
+    width: 805px;
+    height: 550px;
+}
+
+.box_banner{
+    grid-area: auto;
+    grid-template-columns: 100px;
+}
+
+
+
