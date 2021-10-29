@@ -120,11 +120,11 @@ text-decoration: none;
     width:270px;
   }
 
+  /* ajuste texto do carousel  */
 
   .carousel-inner > .carousel-item > img {
       width: 800px;
       height: 500px;
-
   }
 
   .carousel-caption h5{
@@ -157,12 +157,12 @@ text-decoration: none;
     display: flex;
 }
 
-/* menu compras loja */
-
+/* Menu Produtos Loja */
 
 .contenedor {
 	width: 90%;
 	max-width: 1200px;
+    height: 1000px;
 	margin: auto;
 	padding: 40px 0;
     display: grid;
@@ -171,10 +171,10 @@ text-decoration: none;
 	
 }
 
-.titulo {
+/* .titulo {
 	font-size: 24px;
 	padding: 20px 0;
-}
+} */
 
 .contenedor-conciertos {
     display: grid;
@@ -203,14 +203,58 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     text-transform: uppercase;
     font-family: 'Audiowide', cursive;
-    font-size: rem;
     color: whitesmoke;
-
-
 	
+}
+
+.contenedor-conciertos h3 {
+    text-decoration: none;
+}
+
+
+
+
+/* Produtos Diversos */
+
+.menu_diversos {
+	width: 90%;
+	max-width: 1200px;
+    margin: auto;
+	padding: 40px 0;
+    /* display: grid; */
+    /* grid-template-columns: 1fr, auto; */
+
+}
+
+
+.conteiner_items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* height: 200px; */
+  
+	
+} 
+
+.item_diversos {
+	border-radius: 10px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	overflow: hidden;
+	background-size: cover;
+    
+
+}
+
+
+.textos_diversos {
+    text-align: center;
+    color: black;
+    
 	
 }
 
@@ -258,25 +302,3 @@ text-decoration: none;
 @media screen and (max-width: 600px) {
 
 }
-
-
-.menu_loja{
-    width: 1200px;
-    height: 1171px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-}
-
-.box_banner img {
-    width: 805px;
-    height: 550px;
-}
-
-.box_banner{
-    grid-area: auto;
-    grid-template-columns: 100px;
-}
-
-
-

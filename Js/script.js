@@ -1,3 +1,7 @@
+alert ('Exemplo de comando alert');
+console.log('Mensgem enviada pelo console');
+
+
 $( document ).ready(function() {
 
     // carrosel inicio
