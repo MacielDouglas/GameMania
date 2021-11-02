@@ -1,6 +1,16 @@
 alert ('Exemplo de comando alert');
 console.log('Mensgem enviada pelo console');
 
+function Enviar() {
+
+    var email = document.getElementById("emailid");
+
+    if (email.value != "") {
+        alert('Obrigado por cadastrar o seu email' + email.value + '. Foi encaminhado com sucesso');
+    }
+
+}
+
 
 $( document ).ready(function() {
 
