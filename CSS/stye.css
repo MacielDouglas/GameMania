@@ -18,22 +18,28 @@ header {
     /* display: flex; */
 }
 
+/* slide texto  */
 .tipbar {
-    height: 15%;
+    height: 16%;
+    width: 100%;
     background-color: black;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
-.tipbar li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.tipbar ul {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    
+    text-transform: uppercase;
+    list-style: none;   
 }
+
+#slide li {
+    display: none;
+    }
+
 
 /* header parte interaçao com usuário */
 .container_head {
@@ -154,9 +160,9 @@ text-decoration: none;
 #rotativo img {
     display: none;
 }
+
 .banner img{
     display: flex;
-    /* height: 55px; */
 }
 
 .banner_ativo {
@@ -272,7 +278,7 @@ text-decoration: none;
 /* Estrutura para as redes socias */
 
 #game_mania {
-    height: 1200px;
+    height: 1000px;
     background-color: #1D1D1F;
     display: flex;
     flex-direction: column;
