@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania, tudo para games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+    <!-- slide com condiçoes de pagamento e frete  -->
+    <div class="tipbar">
+        <ul id="slide">
+            <li>frete grátis acima de 299,99</li>
+            <li>parcelamos em até 12x</li>
+        </ul>
+    </div>
+<!-- fim do slide  -->
+<div class="container_head">
+  <span class="container_logo"><a href="index.html"><img src="img/LogoGameMania.svg" alt="logo do site game mania"></a></span>
+  <h1>GAME MANIA</h1>
+
+  <div id="container_navegador">
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">GAME MANIA</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><img src="img/LOgin.svg" alt="area de login do cliente"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/FaleConosco.svg" alt="cental de atendimento ao cliente"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/CarrinhoCompra.svg" alt="sacola de compras"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MENU
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="produtos.html#lançamentos">lançamentos</a></li>
+                  <li><a class="dropdown-item" href="produtos.html">produtos</a></li>
+                  <!-- <li> -->
+                  <li><a class="dropdown-item" href="#">games</a></li>
+                  <!-- <li> -->
+                  <li><a class="dropdown-item" href="index.html#game_mania">#game_mania</a></li>
+                  <li>
+                  <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">SUPORTE</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Procure agora!" aria-label="Search">
+              <button class="btn btn-dark" type="submit">Procurar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+  </div>
+
+
+
+
+  <nav class="container_icones">
+    <a href="#"><img src="img/LOgin.svg" alt="area de login do cliente"></a>
+    <a href="#"><img src="img/FaleConosco.svg" alt="cental de atendimento ao cliente"></a>
+    <a href="#"><img src="img/CarrinhoCompra.svg" alt="sacola de compras"></a>
+  </nav>
+</div>
+
+
+<!-- barra de navegação nav bar  -->
+<div class="barra_navegacao">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="produtos.html#lançamentos">lançamentos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="produtos.html">produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#game_mania">#game_mania</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              suporte
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">fale conosco</a></li>
+              <li><a class="dropdown-item" href="#">reclamações</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">nossa loja</a></li>
+            </ul>
+          </li>
+        </ul>
+<!-- campo pesquisar do site  -->
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+          <button class="btn btn-dark btn-sm" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+
+</header>
+
+
+<section class="menu_diversos" id="lançamentos">
+    <div class="conteiner_items">
+      <div class="item_diversificado produto1" >
+        <a href="playstation5.html" class="item_diversos textos_diversos">
+          <img src="img/Playstation5.jpg" alt="console sony Playstation5">
+          <div>
+            <h3>Console Sony PlayStation® 5</h3>
+            <p>R$ 5.850,00<br><b>12 x 500,00</b></p>
+          </div>
+        </a>
+      </div>
+  
+      <div class="item_diversificado produto2">
+        <a href="#" class="item_diversos textos_diversos">
+        <img src="img/XboxOneS.jpg" alt="Console xbox modelo s branco">
+        <div>
+          <h3>Console Xbox S 500g SSD</h3>
+          <p>R$ 3.500,00<br><b>12 x 333,00</b></p>
+        </div>
+      </a>
+      </div>
+  
+      <div class="item_diversificado produto3">
+        <a href="#" class="item_diversos textos_diversos">
+          <img src="img/ps4.jpg" alt="console Playstation4 slim">
+        <div>
+          <h3>Console Playstation 4 Slim 500Gb</h3>
+          <p>R$ 2.999,00<br><b>12 x 249,00</b></p>
+        </div>
+      </a>
+      </div>
+  
+      <div class="item_diversificado produto4">
+        <a href="#" class="item_diversos textos_diversos">
+          <img src="img/XboxOneX.jpg" alt="pente de memória descktop ddr4">
+        <div>
+          <h3>Console Xbox Series X 1TB</h3>
+          <p>R$ 4.349,00<br><b>12 x 362,00</b></p>
+        </div>
+      </a>
+      </div>
+  
+      <div class="item_diversificado produto5">
+        <a href="#" class="item_diversos textos_diversos">
+        <img src="img/NitendoSwith.jpg" alt="console nitendo switch">
+        <div>
+          <h3>Console Nitendo Switch</h3>
+          <p>R$ 2.150,00<br><b>12 x 199,99</b></p>
+        </div>
+        </a>
+      </div>
+  
+   <div class="item_diversificado produto6">
+     <a href="#" class="item_diversos textos_diversos">
+        <img src="img/nitendoSwithLIte.jpg" alt="console nitendoSwith LIte">
+        <div>
+          <h3>Nintendo Switch Lite 32giga</h3>
+          <p>R$ 1.661,00<br><b>12 x 152,00</b></p>
+        </div>
+    </a>
+    </div>
+  
+      <div class="item_diversificado produto7" >
+        <a href="playstation5.html" class="item_diversos textos_diversos">
+          <img src="img/Playstation5.jpg" alt="console sony">
+        <div>
+          <h3>Console  Sony  PlayStation® 5</h3>
+          <p>R$ 5.850,00<br><b>12 x 500,00</b></p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="item_diversificado produto8">
+        <a href="#" class="item_diversos textos_diversos">
+          <img src="img/XboxOneX.jpg" alt="pente de memória descktop ddr4">
+        <div>
+          <h3>Console Xbox Series X 1TB</h3>
+          <p>R$ 4.349,00<br><b>12 x 362,00</b></p>
+        </div>
+      </a>
+      </div>
+      
+    </div>
+  </section>
+
+
+
+
+<!-- inicio do footer  -->
+<footer>
+
+  <!-- Area cadastro do email usuario  -->
+    <section class="cabecalho_rodape">
+      <div class="container_email">
+        <p>assine nossa newsletter <br> fique por dentro das novidades e lançamentos</p>
+        <form action="cadastrar_email">
+          <div id="mail">
+            <input type="email" id="emailid" placeholder="Seu email:" name="email" />
+            <input  class="btn btn-light btn-sm enviar" type="submit" id="btnenviar" onclick="Enviar();" value="Enviar" />
+            <p>cadastre-se</p>
+          </div>
+        </form>
+      </div>
+
+      <div> 
+        <nav class="siga">
+            <p>siga a gente: </p>
+            <a href="#"><img src="img/facebook.png" alt="icone facebook para login"></a>
+            <a href="#"><img src="img/Instagram.jpg" alt="icone do instagram para login"></a>
+          </nav>
+  
+        </div>
+
+      <div class="container_contatenos">
+        <nav class="nav_footer">
+          <a class="item2" href="#"><p>meus produtos</p></a>
+          <a class="item1" href="#"><p>dúvidas</p></a>
+          <a class="item2" href="#"><p>trocas e devuloções</p></a>
+          <a class="item1" href="#"><p>quem somos</p></a>
+        </nav>
+      </div>
+
+
+    </section>
+
+    <div class="rodape">
+      <a href="index.html"><img src="img/LogoGameMania.svg" alt="logo site game mania"></a>
+      <section class="endereco"> 
+        <h4>FaleConosco:</h4>
+        <p>(11) 3000-0001 <br>game@gamemania.com.br</p>
+        <p><b>GAME MANIA</b>| São paulo | CNPJ 01.234.567/0001-89 |</p>
+      </section>
+      <div>
+        <img src="img/bandeirasCartoes.png" alt="imagem com formas de pagamento e bandeiras de cartões de crédito">
+      </div>
+    </div>
+
+
+  </footer>
+    
+
+
+</body>
+</html>
