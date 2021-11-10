@@ -390,33 +390,14 @@ footer {
  /* configuraços email  */
 #emailid{
     border:solid 1px;
+    border-radius: 5px;
     width: 400px;
     height: 32px;
     font-family: 'Roboto', sans-serif;
     font-style:italic;
     font-size:16px;
     
-  }
-
-  /* configurção botao enviar emaial  */
-/* #btnenviar{
-    font-size:15px;
-    font-family:Arial;
-    width:100px;
-    height:30px;
-    border-width:1px;
-    color:#666666;
-    border-color:#dcdcdc;
-    font-weight:bold;
-    box-shadow:inset 0px 1px 0px 0px #ffffff;
-    text-shadow:inset 0px 1px 0px #ffffff;
-    background:linear-gradient(#ffffff, #f6f6f6);
-  }
-  
-#btenviar:hover {
-    background: linear-gradient(black, #ffffff);
-  } */
-
+}
 
 
 .container_contatenos {
