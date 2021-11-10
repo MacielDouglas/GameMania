@@ -530,15 +530,7 @@ footer {
     .cabecalho_rodape {height: 500px; margin-top: 30px; display: flex;}
     #emailid {width: 280px; height: 25px;}
     .rodape { display: flex; flex-direction: column; justify-content: space-around; align-items: center;}
-    /* footer {height: 400px;}
-    .cabecalho_rodape {display: flex; flex-direction: column;}
-    .nav_footer {display: flex; align-items: center; justify-content: space-evenly; }
-    .siga {justify-content: center;}
-    .siga p {display: none;}
-    .siga a img {width: 50%;}
-    .rodape a img {width: 50%}
-    .endereco {display: flex; flex-direction: column; height: 90%;}
-    .rodape div img {width: 80%;} */
+   
 
 }
 
