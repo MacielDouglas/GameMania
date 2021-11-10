@@ -278,7 +278,7 @@ header {
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 .container_social p {
@@ -321,16 +321,16 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
 .ranking h3 {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 200%;
 }
 .ranking p {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 130%;
 }
 .ranking a {text-decoration: none;}
