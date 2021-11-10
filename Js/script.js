@@ -15,3 +15,11 @@ function slide(){
     }
 }
 })
+
+
+let email = document.getElementById("emailid");
+
+function enviarEmail() {
+    let emailDigitado = email.value;
+    console.log(emailDigitado)
+}
